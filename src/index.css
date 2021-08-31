@@ -1,19 +1,30 @@
 body {
   background-color: #151515;
 }
-#summary {
+.section-title {
+  text-align: center;
+}
+.section {
   display: block;
   margin: auto;
   width: 80vw;
   padding: 20px;
-  color: #dee8d9;
+  color: #ebe3e0;
+  background-color: rgb(54, 54, 54);
+}
+.items {
+  background-color: #2e2e2e;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 2%;
+  box-shadow: 4px 4px 4px #151515e7;
 }
 h1,
 h2,
 h3 {
-  color: #ce64a5;
+  color: #eca400;
 }
-#summary img {
+img {
   display: block;
   max-width: 500px;
   max-width: 100%;
