@@ -6,8 +6,13 @@ body {
 }
 .section {
   display: block;
-  margin: auto;
-  width: 80vw;
+  margin: 5% auto;
+  width: 90%;
+  max-width: 800px;
+}
+#summary,
+.job-history,
+.edu-history {
   padding: 20px;
   color: #ebe3e0;
   background-color: rgb(54, 54, 54);
