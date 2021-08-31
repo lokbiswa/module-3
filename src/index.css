@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap");
+
 body {
   background-color: #151515;
+  font-family: "Open Sans";
 }
 .section-title {
   text-align: center;
@@ -23,6 +26,11 @@ body {
   margin: 20px auto;
   border-radius: 2%;
   box-shadow: 4px 4px 4px #151515e7;
+  transition: ease-out 100ms;
+}
+.items:hover {
+  background-color: #333232;
+  transform: scale(1.01);
 }
 h1,
 h2,
